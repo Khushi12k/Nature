@@ -1,6 +1,9 @@
 @media screen and(min-width:320px) and(max-width:570){
-.image-content img{
-    
-    
+.text-content{
+    z-index: 1;
+}
+.main{
+    max-width: 300px;
+    width: 100%;
 }
 }
