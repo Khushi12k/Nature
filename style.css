@@ -120,7 +120,7 @@
     .text-info span i{
         padding: 0px;
     }
- }
+ } 
  @media screen and (min-width:571px) and (max-width:768px){
        .image-content{
         width:72%  !important;
