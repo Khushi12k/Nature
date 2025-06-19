@@ -38,7 +38,9 @@
    right:25%;
    width: 30%;
    height: 300px;
-   
+}
+.text-content p{
+    color: black;
 }
 .text-info{
     display: flex;
@@ -75,10 +77,11 @@
     cursor: pointer;
 }
 
- @media screen and (max-width:570px) {
-
+ @media screen and(min-width:320px) and (max-width:570px){
     .main{
-        /* height: ; */
+        width: 70%;
+        height: 78vh;
+        margin:3rem 1rem 0 0;
     }
     .text-content{
         z-index: 3;
@@ -103,7 +106,92 @@
         width: 100%;
     }
     .text-info{
-        
+        font-size: 10px;
     }
-  
+    .search{
+        padding: 4px;
+        border-radius: 10px;
+        font-size: 8px;
+    }
+    .like{
+        width: 20px;
+    height: 20px;
+    }
+    .text-info span i{
+        padding: 0px;
+    }
  }
+ @media screen and (min-width:571px) and (max-width:768px){
+       .image-content{
+        width:72%  !important;
+        height: 80%;
+    }
+      .image-content img{
+        width: 100%;
+    }
+     .main{
+        width: 78%;
+        height: 90vh;
+        margin:  5rem -4rem 0 0;
+ }
+    .text-info{
+        font-size: 14px;
+    }
+     .search{
+        padding: 8px;
+        border-radius: 10px;
+        font-size: 10px;
+    }
+     .like{
+        width: 30px;
+    height: 30px;
+    }
+    .text-content h3{
+        font-size: 24px;
+    }
+    .text-content p{
+        font-size: 12px;
+    }
+    .text-content{
+        width: 58%;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+.main{
+    width: 80%;
+    height: 92vh;
+    margin-top: 5rem;
+}
+.image-content{
+    width: 76%;
+    height: 240px;
+    top:8%;
+    left:12%;
+}
+ .image-content img{
+        width: 100%;
+    }
+    .text-content{
+        width: 64%;
+    }
+     .text-info{
+        font-size: 14px;
+    }
+     .search{
+        padding: 4px;
+        border-radius: 10px;
+        font-size: 10px;
+    }
+     .like{
+        width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    }
+    .text-content h3{
+        font-size: 24px;
+    }
+    .text-content p{
+        font-size: 14px;
+    }
+    
+}
